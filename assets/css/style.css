@@ -279,21 +279,3 @@ section {
 }
 
 /* REACH OUT STYLES END */
-
-.page-title h2 {
-  display: inline-block;
-}
-
-.page-title {
-  color: #fce138;
-  border-bottom: #fce138 solid 4px;
-  padding: 0 80px 15px 80px;
-  font-weight: normal;
-  font-size: 42px;
-  font-style: italic;
-  display: inline-block;
-}
-
-.page-title {
-  text-align: center;
-}
