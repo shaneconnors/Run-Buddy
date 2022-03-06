@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-  body { 
+body { 
   /* different syntax from html */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
@@ -43,7 +43,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.5vw;
 }
@@ -84,6 +84,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .hero-form {
@@ -110,7 +111,7 @@ section {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -165,7 +166,7 @@ section {
 }
 
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   color:#024e76;
   border-bottom: 3px solid;
   padding-bottom: 20px;
@@ -289,11 +290,22 @@ section {
   color: #fce138;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
 .contact-info iframe {
   height: 400px;
 }
 
-.contact-info div{
+.contact-info div {
   color: white;
 }
 
@@ -309,22 +321,7 @@ section {
   font-style: normal;
 }
 
-.contact-info a {
-  color: #fce138;
-}
-
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.contact-info > * {
-  flex: 1;
-  margin: 15px;
-}
-
-.contact-form textarea, .conatct-form input {
+.contact-form input, .contact-form textarea {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
@@ -335,12 +332,32 @@ section {
   margin-top: 5px;
 }
 
-.contact-form input {
-    width: 100%;
-    border: none;
-    color: #024e76;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 16px;
-  }
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+.contact-info a {
+  color: #fce138;
+}
 /* REACH OUT STYLES END */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+ 
+  }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+  }
